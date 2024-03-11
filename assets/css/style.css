@@ -1,0 +1,40 @@
+label {
+  color: white;
+}
+
+textarea {
+  height: 150px;
+}
+
+input {
+  margin-bottom: 10px;
+  background-color: white;
+}
+
+table tr td {
+  color: white;
+}
+
+.fa-pen-to-square {
+  color: green;
+  font-size: 25px;
+}
+
+.fa-rectangle-xmark {
+  color: red;
+  font-size: 25px;
+}
+
+table {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+tr {
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+
+td {
+  padding: 10px 5px;
+}

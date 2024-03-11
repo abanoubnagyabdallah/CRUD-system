@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>crud</title>
+    <link rel="stylesheet" href="assets/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body class="bg-dark">
+    <section class="container">
+      <div class="p-3 mt-3 mb-3 text-light bg-danger rounded-3">
+        <h1>CRUD SYSTEM ...!</h1>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <label for="product-name" class="text-uppercase"
+            >product name :</label
+          >
+          <input
+            type="text"
+            class="form-control bg-transparent text-danger"
+            id="product-name"
+          />
+        </div>
+        <div class="col-md-6">
+          <label for="product-category" class="text-uppercase"
+            >product category :</label
+          >
+          <input
+            type="text"
+            class="form-control bg-transparent text-danger"
+            id="product-category"
+          />
+        </div>
+        <!-- *************************************** -->
+        <div class="col-md-4">
+          <label for="product-price" class="text-uppercase"
+            >product price :</label
+          >
+          <input
+            type="number"
+            class="form-control bg-transparent text-danger"
+            id="product-price"
+          />
+        </div>
+        <div class="col-md-4">
+          <label for="product-discount" class="text-uppercase"
+            >product discount :</label
+          >
+          <input
+            type="number"
+            class="form-control bg-transparent text-danger"
+            id="product-discount"
+          />
+        </div>
+        <div class="col-md-4">
+          <label for="product-quantity" class="text-uppercase"
+            >product quantity :</label
+          >
+          <input
+            type="number"
+            class="form-control bg-transparent text-danger"
+            id="product-quantity"
+          />
+        </div>
+        <div class="col-md-12">
+          <label for="product-description" class="text-uppercase"
+            >product description :</label
+          >
+          <textarea
+            name=""
+            id="product-description"
+            class="form-control bg-transparent text-danger"
+          ></textarea>
+        </div>
+      </div>
+      <button
+        type="button"
+        class="btn btn-outline-success mt-2"
+        id="add-product"
+      >
+        Add Product
+      </button>
+      <button
+        type="button"
+        class="btn btn-outline-info mt-2 d-none"
+        id="update-product"
+      >
+        update Product
+      </button>
+    </section>
+    <!-- ================================================= -->
+    <section class="container mt-4">
+      <form action="">
+        <label for="searchInput" class="text-uppercase"
+          >Search by category :</label
+        >
+        <input
+          type="search"
+          id="searchInput"
+          placeholder="search..."
+          class="form-control bg-transparent text-light"
+          name=""
+        />
+      </form>
+      <table>
+        <thead>
+          <tr>
+            <td>Name</td>
+            <td>Category</td>
+            <td>Price</td>
+            <td>Discount</td>
+            <td>Quantity</td>
+            <td>Description</td>
+            <td>Update</td>
+            <td>Delete</td>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
